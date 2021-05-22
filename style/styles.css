@@ -1,0 +1,90 @@
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12.5%;
+}
+
+.search-bar {
+    height: 45px;
+    width: 580px;
+    /* background: red; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+#search-icon {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#search-box {
+    border: none;
+    width: 85%;
+    position: relative;
+    bottom: 15px;
+    padding: 5px 0px;
+}
+/* 
+#nav-bar {
+    position: fixed;
+    top: 0;
+} */
+li {
+    display: inline;   
+}
+
+li a:link{
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: rgb(39, 39, 39);
+    padding: 10px;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #list-1 {
+    position: fixed;
+      top: 20px;
+      left: 20px;
+    
+}
+  
+  #list-2 {
+    position: fixed;
+    top: 20px;
+      
+      right: 20px;
+  }
+
+  .list {
+      font-family:'Times New Roman', Times, sans serif;
+      /* font-weight: lighter; */
+      font-size: 14px;
+    
+  }
+
+  #sign-in-btn {
+      background: #4285f4;
+      color: white;
+      border: 1px solid #4285f4;
+      padding: 5px 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+}
