@@ -8,12 +8,10 @@
 .search-bar {
     height: 45px;
     width: 580px;
-    /* background: red; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     border-radius: 50px;
-    /* border: 1px solid rgb(204, 204, 204); */
     border: 1px solid #dfdfdf;
 }
 
@@ -27,11 +25,6 @@
     margin: 10px;
     padding: 5px;
 }
-/* 
-#nav-bar {
-    position: fixed;
-    top: 0;
-} */
 li {
     display: inline;   
 }
@@ -71,7 +64,6 @@ ul {
 
   .list {
       font-family:arial,sans-serif;
-      /* font-weight: lighter; */
       font-size: 14px;
     
   }
