@@ -21,10 +21,15 @@
 
 #search-box {
     border: none;
-    width: 80%;
-    margin: 10px;
+    outline: none;
+    width: 70%;
+    margin-top: 5px;
     padding: 5px;
+    background: inherit;
 }
+
+
+
 li {
     display: inline;   
 }
@@ -92,10 +97,10 @@ ul {
     padding: 14px 16px;
   }
 
-
-
-
-
-
-     
+#search-hover:hover {
+    moz-box-shadow: 0 0 3px #ccc;
+-webkit-box-shadow: 0 0 3px #ccc;
+box-shadow: 0 0 3px #ccc;
+    color: #222;
+}
 

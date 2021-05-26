@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="/style/reset.css" rel="stylesheet">
-        <link href="/style/styles.css" rel="stylesheet">
+        <link href="style/reset.css" rel="stylesheet">
+        <link href="style/styles.css" rel="stylesheet">
     </head>
     <body>
         <div class="top-nav-bar">
@@ -17,13 +17,22 @@
             </ul>
             
         </div>
-        <img src="/images/google-logo.png" alt="Google Logo" class="center-img">
-        <div class="search-bar">
+        <img src="images/google-logo.png" alt="Google Logo" class="center-img">
+        <div id="search-hover" class="search-bar" onclick="getFocus()">
             <span class="material-icons-outlined">
-                <img src="/images/1x/outline_search_black_24dp.png" id="search-icon" style="float: left;">
+                <img src="images/1x/outline_search_black_24dp.png" id="search-icon" style="float: left; margin-left: 8px;">
                 </span>
-                <input type="search" id="search-box" style="float: left;">
+                <input type="search" id="search-box" style="float: left; font-size: 16px;">
+                <span class="material-icons-outlined">
+                    <img src="images/googlemic_color_24dp.png" id="mic-icon" style="float: right; margin: 8px 10px 12px 10px; width: 30px;
+                    height:30px;">
+                    </span>
         </div>
+        <script>
+            function getFocus() {
+              document.getElementById("search-box").focus();
+            }
+            </script>
         <br>
         <ul id="bottom-list" class="list">
             <li id="items1"><a href="" style="float: left;">Advertising</a></li>
